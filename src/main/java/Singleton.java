@@ -1,4 +1,4 @@
-package com.eonjava;
+package main.java;
 
 /**
  * Created by Erich on 9/7/2015.
@@ -17,5 +17,9 @@ public class Singleton {
         }
 
         return instance;
+    }
+
+    public String checkSingleton() {
+        return "Yes, I am working!";
     }
 }
