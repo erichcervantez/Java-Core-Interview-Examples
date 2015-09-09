@@ -20,6 +20,7 @@ public class Singleton {
     }
 
     public String checkSingleton() {
+
         return "Yes, I am working!";
     }
 }
