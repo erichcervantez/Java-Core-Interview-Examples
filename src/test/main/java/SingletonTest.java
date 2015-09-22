@@ -34,7 +34,7 @@ public class SingletonTest {
         Singleton singleton = Singleton.getInstance();
         System.out.println(singleton);
 
-        Assert.assertNotEquals("Singleton must not be null", singleton, null);
+        Assert.assertNotNull("Singleton must not be null", singleton);
     }
 
 
