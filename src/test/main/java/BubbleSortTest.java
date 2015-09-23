@@ -1,6 +1,6 @@
 package test.main.java;
 
-import main.java.BubbleSort;
+import main.java.sorting.BubbleSort;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Before;
