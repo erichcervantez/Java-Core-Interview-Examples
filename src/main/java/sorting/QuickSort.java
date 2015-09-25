@@ -30,6 +30,8 @@ public class QuickSort {
 
             System.out.println("Before swap - left: " + numbers[left] + ", right: " + numbers[right]);
 
+            //found two values that need to be switched
+            //make sure the indexes are sti
             if (left <= right) {
                 int temp = numbers[left];
                 numbers[left] = numbers[right];
